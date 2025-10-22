@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sistema de login</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+      #retangulomaior {
+        display: flex;
+        height: 550px;
+        width: 800px;
+        background-color: blue;
+        border-radius: 30px;
+        overflow: hidden;
+      }
+      .metade {
+        width: 50%;
+        height: 100%;
+      }
+      .esquerda {
+        background-color: rgb(217, 217, 217);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .direita {
+        background-color: rgb(194, 194, 194);
+        position: relative;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 45px;
+      }
+      #img {
+        max-width: 80%;
+        max-height: 80%;
+        border-radius: 18px;
+      }
+      #login {
+        display: flex;
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(41, 41, 41);
+        font-size: 30px;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid rgb(41, 41, 41);
+        background-color: rgba(90, 168, 177, 1);
+        width: 150px;
+        height: 55px;
+        border-radius: 18px;
+      }
+      #register {
+        display: flex;
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(41, 41, 41);
+        font-size: 30px;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid rgb(41, 41, 41);
+        background-color: rgba(90, 168, 177, 1);
+        width: 150px;
+        height: 55px;
+        border-radius: 18px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="retangulomaior">
+      <div class="metade esquerda">
+        <img src="images.png" alt="logo" id="img" />
+      </div>
+      <div class="metade direita">
+        butid="login">Login
+        <div id="register">Register</div>
+      </div>
+    </div>
+  </body>
+</html>
